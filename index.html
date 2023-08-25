@@ -9,6 +9,7 @@
         <source src="song.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
+    
     <div class="container">
         <h1>Now they always say congratulations!</h1>
         <img src="posty.gif" alt="Post" class="post">
@@ -26,6 +27,13 @@
     </div>
     <script src="script.js"></script>
 
-
+   <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var audio = new Audio('song.mp3'); // Replace with your audio file path
+        audio.currentTime = 25; // Replace with the desired start time
+        audio.play();
+    });
+    </script>
+    
 </body>
 </html>
