@@ -14,4 +14,8 @@ document.addEventListener("DOMContentLoaded", function() {
         const colors = ["#FF5733", "#FFC300", "#DAF7A6", "#9AECDB", "#C7E9E8", "#F1948A", "#F8C471"];
         return colors[Math.floor(Math.random() * colors.length)];
     }
+     var audio = new Audio('song.mp3'); // Replace with your audio file path
+    audio.currentTime = 25; // Replace with the desired start time
+    audio.play();
+    
 });
