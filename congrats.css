@@ -22,6 +22,14 @@ body {
     overflow: hidden;
 }
 
+audio {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
 
 h1 {
     color: #3574AC;
