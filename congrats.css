@@ -24,7 +24,7 @@ body {
 
 audio {
     position: fixed;
-    bottom: 20px; /* Add margin to create space below */
+    bottom: 0; /* Add margin to create space below */
     left: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
